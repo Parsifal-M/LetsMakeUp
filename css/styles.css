@@ -1,0 +1,79 @@
+body {
+  background-image: url(/fishnets-and-hearts.png);
+}
+
+
+h1 {
+  text-align: center;
+  padding: 1.5rem 2.5rem;
+  background-image: linear-gradient(120deg, #eb7571 0%, #6a98e6e7 100%);
+  margin: 0 0 2rem 0;
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Amatic SC", cursive;
+}
+
+p {
+  padding: 0 2.5rem 2.5rem;
+  margin: 0;
+  font-family: "Kalam", cursive;
+  font-size: 1.2em;
+}
+
+.card {
+  margin: 1rem;
+  background: white;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.2s linear;
+}
+
+.card:hover {
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, 0.15);
+  transform: translate3D(0, -2px, 0);
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}
+
+.navcolor {
+  background-image: linear-gradient(120deg, #eb7571 0%, #6a98e6e7 100%);
+}
+
+#searchBtn {
+  margin-left: 5px;
+}
+
+#navBar {
+  font-family: "Amatic SC", cursive;
+  font-size: 25px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#landingTitle {
+  margin-top: 400px;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 3.0em;
+}
+
+#error-text {
+  margin-top: 400px;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 3.0em;
+}
