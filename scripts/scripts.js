@@ -27,7 +27,7 @@ function getData() {
   var request = new XMLHttpRequest();
   request.open(
     "GET",
-    `http://makeup-api.herokuapp.com/api/v1/products.json?brand=covergirl&product_type=${productSelected}`,
+    `https://makeup-api.herokuapp.com/api/v1/products.json?brand=covergirl&product_type=${productSelected}`,
     true
   );
   request.onload = function() {
